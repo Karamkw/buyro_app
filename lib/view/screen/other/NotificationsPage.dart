@@ -32,9 +32,9 @@ class NotificationsPage extends StatelessWidget {
                 leading: const Icon(Icons.notifications),
                 title: Text(notification['title'] ?? "عنوان غير متوفر"),
                 subtitle: Text(notification['body'] ?? "لا يوجد تفاصيل"),
-                trailing: Text(notification['date'] ?? ""), // مثلاً: "منذ ساعة"
+                trailing: Text(notification['date'] ?? ""),
                 onTap: () {
-                  // TODO: تصرف عند الضغط على الإشعار (مثلاً: فتح إعلان معيّن)
+              
                 },
               );
             },
